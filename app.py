@@ -66,7 +66,7 @@ confirm_btn = Button (main_frame, text = "Confirm", command = confirm)
 confirm_btn.grid(row = 3, column = 0, columnspan = 2, pady = 10, padx = 10, ipadx = 70)
 
 quit_btn = Button (main_frame, text = "Exit Program", command = root.quit)
-quit_btn.grid(row = 9, column = 0, columnspan = 2, pady = 100, padx = 10, ipadx = 70)
+quit_btn.grid(row = 10, column = 0, columnspan = 2, pady = 100, padx = 10, ipadx = 70)
 
 
 root.mainloop()
